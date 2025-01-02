@@ -4,7 +4,8 @@ import { IsEmail, IsString, IsNotEmpty, IsEnum } from 'class-validator';
 export enum UserType {
   SUPERADMIN = 'superadmin',
   SHOPOWNER = 'shopowner',
-  STAFF = 'staff'
+  STAFF = 'staff',
+  USER = 'user',
 }
 
 export class LoginDto {
